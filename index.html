@@ -4,9 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- //Connect to jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Connect to bootsrap before connecting to css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- conncet to css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-    
+    <div class="jumbotron text-center">
+  <h1>Crystals Collectors</h1>
+</div>
+
+<!-- Make a container that has all the elements for the game -->
+<div class="container">
+  <div class="row">
+      <div class="col-sm-12">
+          <h2>Rules</h2>
+          <p>
+              You will be given a random numberat the start of the game.
+          </p>
+          <p>
+              There are four crystals below. 
+              By clicking on a crystal you will add a specific amount of points to your total score.
+          </p>
+          <p>
+              You win the game by matching your total score to a random number, you lose the game if your total score goest above the random number.
+          </p>
+          <p> 
+              The value of each crystal is hidden from you until you click on it. 
+          </p>
+          <p>
+              Each time when the game starts, the game will change the values of each crystal.
+          </p>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 class="randomNumber">Random Number</h2>
+    </div>
+    <div class="col-sm-2">
+      <p>Wins: 0</p>
+      <p>Loses : 0</p>
+    </div>
+    <div class="col-sm-6">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-1">
+        <img src="../unit-4-game/assets/images/stone2.png" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="col-sm-1">
+        <img src="../unit-4-game/assets/images/stone3.png" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="col-sm-1">
+        <img src="../unit-4-game/assets/images/stone4.png" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="col-sm-1">
+        <img src="../unit-4-game/assets/images/stone5.png" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="col-sm-8">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+        <p></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+        <h2>
+            Your total score is: 
+        </h2>
+    </div>
+    <div class="col-sm-8">
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h1>
+               0 
+            </h1>
+        </div>
+        <div class="col-sm-8">
+        </div>
+        </div>
+</div>
+
+
+    <!-- connect to javascript -->
     <script src="assets/javascript/game.js"></script>
 </body>
 </html>
