@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Crystals Collectors</title>
     <!-- //Connect to jquery -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- Connect to bootsrap before connecting to css -->
@@ -22,22 +22,23 @@
   <div class="row">
       <div class="col-sm-12">
           <h2>Rules</h2>
-          <p>
+          <p class = "introParagraphs">
               You will be given a random numberat the start of the game.
           </p>
-          <p>
+          <p class = "introParagraphs">
               There are four crystals below. 
               By clicking on a crystal you will add a specific amount of points to your total score.
           </p>
-          <p>
+          <p class = "introParagraphs">
               You win the game by matching your total score to a random number, you lose the game if your total score goest above the random number.
           </p>
-          <p> 
+          <p class = "introParagraphs"> 
               The value of each crystal is hidden from you until you click on it. 
           </p>
-          <p>
+          <p class = "introParagraphs">
               Each time when the game starts, the game will change the values of each crystal.
           </p>
+          <button type="button" class="btn btn-info" id="introParagraphGreeting">Click to Toggle Rules</button>
       </div>
   </div>
   <div class="row">
@@ -53,16 +54,16 @@
   </div>
   <div class="row">
     <div class="col-sm-1">
-        <img src="../unit-4-game/assets/images/stone2.png" class="img-fluid" alt="Responsive image">
+        <img src="../unit-4-game/assets/images/stone2.png" class="img-fluid" alt="Responsive image" id = "stone2">
     </div>
     <div class="col-sm-1">
-        <img src="../unit-4-game/assets/images/stone3.png" class="img-fluid" alt="Responsive image">
+        <img src="../unit-4-game/assets/images/stone3.png" class="img-fluid" alt="Responsive image" id = "stone3">
     </div>
     <div class="col-sm-1">
-        <img src="../unit-4-game/assets/images/stone4.png" class="img-fluid" alt="Responsive image">
+        <img src="../unit-4-game/assets/images/stone4.png" class="img-fluid" alt="Responsive image" id = "stone4">
     </div>
     <div class="col-sm-1">
-        <img src="../unit-4-game/assets/images/stone5.png" class="img-fluid" alt="Responsive image">
+        <img src="../unit-4-game/assets/images/stone5.png" class="img-fluid" alt="Responsive image" id = "stone5">
     </div>
     <div class="col-sm-8">
     </div>
@@ -93,7 +94,7 @@
 </div>
 
 
-    <!-- connect to javascript -->
-    <script src="assets/javascript/game.js"></script>
 </body>
+ <!-- connect to javascript -->
+<script src="assets/javascript/game.js"></script>
 </html>
