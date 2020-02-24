@@ -1,5 +1,14 @@
 $(document).ready(function() {
     
+    // Make variables for the stones = 0
+
+    var stone2 = 0
+    var stone3 = 0
+    var stone4 = 0
+    var stone5 = 0
+
+   
+    
     $("#introParagraphGreeting").click(function (){
         $(".introParagraphs").slideToggle();
     })
@@ -21,4 +30,4 @@ $(document).ready(function() {
 
 var introParagraphGreeting;
 introParagraphGreeting = document.getElementById("introParagraphGreeting");
-// introParagraphGreeting.textContent = "Hello friends! Let's get going."
+
